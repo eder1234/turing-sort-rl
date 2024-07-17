@@ -86,14 +86,14 @@ This project is open-source and available under the MIT License.
 |    policy_gradient_loss | -0.0193     |
 |    value_loss           | 0.185       |
 
-Stage 4 performance: 3.02 +/- 2.14
-Model saved to models/sorting_agent
-Evaluating the agent...
+- Stage 4 performance: 3.02 +/- 2.14
+- Model saved to models/sorting_agent
+- Evaluating the agent...
 Using cpu device
 ### Evaluation Results:
-Mean Reward: 3.73 +/- 1.98
-Mean Steps: 26.98
-Sorting Accuracy: 0.00%
+- Mean Reward: 3.73 +/- 1.98
+- Mean Steps: 26.98
+- Sorting Accuracy: 0.00%
 
 ## Considerations
 
