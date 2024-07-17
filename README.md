@@ -64,16 +64,17 @@ You can adjust the following parameters in the scripts:
 This project is open-source and available under the MIT License.
 
 ## Preiliminar result
------------------------------------------
-| rollout/                |             |
+| Metric                  | Value       |
+|-------------------------|-------------|
+| **rollout/**            |             |
 |    ep_len_mean          | 27          |
 |    ep_rew_mean          | 3.48        |
-| time/                   |             |
+| **time/**               |             |
 |    fps                  | 1804        |
 |    iterations           | 123         |
 |    time_elapsed         | 139         |
 |    total_timesteps      | 251904      |
-| train/                  |             |
+| **train/**              |             |
 |    approx_kl            | 0.017784424 |
 |    clip_fraction        | 0.137       |
 |    clip_range           | 0.2         |
@@ -84,7 +85,6 @@ This project is open-source and available under the MIT License.
 |    n_updates            | 1220        |
 |    policy_gradient_loss | -0.0193     |
 |    value_loss           | 0.185       |
------------------------------------------
 Stage 4 performance: 3.02 +/- 2.14
 Model saved to models/sorting_agent
 Evaluating the agent...
